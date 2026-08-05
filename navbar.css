@@ -1,0 +1,79 @@
+/* ==========================================
+   Reset
+========================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ==========================================
+   Sidebar
+========================================== */
+
+.container {
+    width: 120px;
+    height: 100vh;
+
+    background-color: black;
+    color: white;
+}
+
+
+/* ==========================================
+   Menu Items
+========================================== */
+
+.container p {
+    padding: 10px;
+    transition: 0.3s ease;
+}
+
+
+/* ==========================================
+   Hover Effect
+========================================== */
+
+.container p:hover,
+button:hover {
+    background-color: #2d2d2d;
+    color: #4fc3f7;
+    cursor: pointer;
+}
+
+
+/* ==========================================
+   Buttons
+========================================== */
+
+button {
+    background-color: black;
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+
+    padding: 8px 15px;
+    transition: 0.3s ease;
+}
+
+
+/* ==========================================
+   Close Button
+========================================== */
+
+#close {
+    position: absolute;
+    left: 125px;
+}
+
+
+/* ==========================================
+   Hidden Class
+========================================== */
+
+.hide {
+    display: none;
+}
